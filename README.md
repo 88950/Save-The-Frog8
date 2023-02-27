@@ -5,4 +5,4 @@ API (1.0.0): https://api.coinmarketcal.com/
 
 ## Install
 ```
-pip instal
+pip install https://github.com/mfuellbier/python-coinmarketcal/ar
