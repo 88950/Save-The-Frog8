@@ -10,4 +10,6 @@ pip install https://github.com/mfuellbier/python-coinmarketcal/archive/master.zi
 
 ## Usage
 ```python
-from
+from coinmarketcal import Coinmarketcal
+# Get Token
+c
