@@ -12,4 +12,6 @@ pip install https://github.com/mfuellbier/python-coinmarketcal/archive/master.zi
 ```python
 from coinmarketcal import Coinmarketcal
 # Get Token
-c
+coinmarketcal = Coinmarketcal(client_id, client_secret)
+
+# Get co
