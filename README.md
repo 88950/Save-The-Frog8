@@ -14,4 +14,6 @@ from coinmarketcal import Coinmarketcal
 # Get Token
 coinmarketcal = Coinmarketcal(client_id, client_secret)
 
-# Get co
+# Get coins list
+coinmarketcal.get_coins()
+# Get categories list
