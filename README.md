@@ -18,4 +18,6 @@ coinmarketcal = Coinmarketcal(client_id, client_secret)
 coinmarketcal.get_coins()
 # Get categories list
 coinmarketcal.get_categories()
-# Get defaul
+# Get default events
+coinmarketcal.get_events(page=None, max=None,
+   
