@@ -17,3 +17,5 @@ coinmarketcal = Coinmarketcal(client_id, client_secret)
 # Get coins list
 coinmarketcal.get_coins()
 # Get categories list
+coinmarketcal.get_categories()
+# Get defaul
