@@ -21,4 +21,6 @@ coinmarketcal.get_categories()
 # Get default events
 coinmarketcal.get_events(page=None, max=None,
                          dateRangeStart=None, dateRangeEnd=None, coins=None,
-                         categories=Non
+                         categories=None, sortBy=None, showOnly=None)
+
+```
