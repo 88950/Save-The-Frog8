@@ -6,4 +6,5 @@
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 #
-# python-coinmarketcal is distributed in the hope that it
+# python-coinmarketcal is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; witho
