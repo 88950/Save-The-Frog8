@@ -16,4 +16,5 @@
 
 
 import logging
-logger=logging.getLogge
+logger=logging.getLogger("python-coinmarketcal")
+logger.setLevel(logging.WARNIN
