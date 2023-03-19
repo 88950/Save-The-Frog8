@@ -20,4 +20,7 @@ logger=logging.getLogger("python-coinmarketcal")
 logger.setLevel(logging.WARNING)
 ch = logging.StreamHandler()
 ch.setLevel(logging.WARNING)
-logger
+logger.addHandler(ch)
+
+import sys
+from coinmarketcal.clien
