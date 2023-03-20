@@ -1,3 +1,4 @@
+
 # Author: mfuellbier
 # This file is part of python-coinmarketcal.
 #
@@ -14,13 +15,15 @@
 # You should have received a copy of the GNU General Public License
 # along with python-coinmarketcal.  If not, see <http://www.gnu.org/licenses/>.
 
-
 import logging
-logger=logging.getLogger("python-coinmarketcal")
-logger.setLevel(logging.WARNING)
-ch = logging.StreamHandler()
-ch.setLevel(logging.WARNING)
-logger.addHandler(ch)
+import json
+import requests
+import datetime
 
-import sys
-from coinmarketcal.client import Coinmarketcal
+logger = logging.getLogger('python-coinmarketcal')
+
+
+class Coinmarketcal:
+
+    def __init__(self, id, secret):
+        self.id = id
