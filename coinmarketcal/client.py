@@ -81,3 +81,23 @@ class Coinmarketcal:
 
     def get_events(self, page=None, max=None,
                   dateRangeStart=None, dateRangeEnd=None,
+                  coins=None, categories=None, sortBy=None, showOnly=None):
+        payload = {
+            "page": page,
+            "max": max,
+            "dateRangeStart": dateRangeStart,
+            "dateRangeEnd": dateRangeEnd,
+            "coins": coins,
+            "categories": categories,
+            "sortBy": sortBy,
+            "showOnly": showOnly,
+            'access_token': self.token}
+
+        url = "https://api.coinmarketcal.com/v1/events"
+        try:
+            events =requests.get(url, params=payload)
+            result = json.loads(events.text)
+        except json.decoder.JSONDecodeError:
+            logger.debug("JSONDecodeError")
+            result = []
+        return result
