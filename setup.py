@@ -3,4 +3,6 @@ import sys
 import os
 
 try:
-    from setuptools import se
+    from setuptools import setup
+except ImportError:
+    from distutils.core impo
