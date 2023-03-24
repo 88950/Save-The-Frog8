@@ -1,2 +1,6 @@
 #!/usr/bin/env python
-imp
+import sys
+import os
+
+try:
+    from setuptools import se
