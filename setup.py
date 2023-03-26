@@ -10,4 +10,5 @@ except ImportError:
 here = os.path.dirname(__file__)
 
 exec(open(os.path.join(here, 'coinmarketcal', 'version.py')).read())
-setup(n
+setup(name = "coinmarketcal",
+    version = version_strin
