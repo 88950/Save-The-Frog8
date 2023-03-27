@@ -12,4 +12,6 @@ here = os.path.dirname(__file__)
 exec(open(os.path.join(here, 'coinmarketcal', 'version.py')).read())
 setup(name = "coinmarketcal",
     version = version_string, #@UndefinedVariable,
-    description = "Python wrapper f
+    description = "Python wrapper for coinmarketcal.com",
+    author = "mfuellbier",
+    maintaine
