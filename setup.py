@@ -14,4 +14,5 @@ setup(name = "coinmarketcal",
     version = version_string, #@UndefinedVariable,
     description = "Python wrapper for coinmarketcal.com",
     author = "mfuellbier",
-    maintaine
+    maintainer_email = "gregoryberzin@gmail.com",
+    licens
