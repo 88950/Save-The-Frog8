@@ -15,4 +15,5 @@ setup(name = "coinmarketcal",
     description = "Python wrapper for coinmarketcal.com",
     author = "mfuellbier",
     maintainer_email = "gregoryberzin@gmail.com",
-    licens
+    license = "BSD",
+    url = "https://github.com/trikota/python-coinmarket
