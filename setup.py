@@ -16,4 +16,6 @@ setup(name = "coinmarketcal",
     author = "mfuellbier",
     maintainer_email = "gregoryberzin@gmail.com",
     license = "BSD",
-    url = "https://github.com/trikota/python-coinmarket
+    url = "https://github.com/trikota/python-coinmarketcal",
+    packages = [
+        'coinma
