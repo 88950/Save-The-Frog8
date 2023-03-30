@@ -18,4 +18,6 @@ setup(name = "coinmarketcal",
     license = "BSD",
     url = "https://github.com/trikota/python-coinmarketcal",
     packages = [
-        'coinma
+        'coinmarketcal',
+    ],
+    install_requires = ["req
