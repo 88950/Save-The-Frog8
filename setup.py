@@ -20,4 +20,6 @@ setup(name = "coinmarketcal",
     packages = [
         'coinmarketcal',
     ],
-    install_requires = ["req
+    install_requires = ["requests"],
+    platforms = ["POSIX", "Windows"],
+    use_2to3 =
