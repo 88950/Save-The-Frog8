@@ -22,4 +22,6 @@ setup(name = "coinmarketcal",
     ],
     install_requires = ["requests"],
     platforms = ["POSIX", "Windows"],
-    use_2to3 =
+    use_2to3 = False,
+    zip_safe = False,
+    long_description = ope
