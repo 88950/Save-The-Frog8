@@ -24,4 +24,7 @@ setup(name = "coinmarketcal",
     platforms = ["POSIX", "Windows"],
     use_2to3 = False,
     zip_safe = False,
-    long_description = ope
+    long_description = open(os.path.join(here, "README.md"), "r").read(),
+)
+
+
